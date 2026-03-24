@@ -136,44 +136,44 @@ This produces a **certified admissible decision set**.
 
 ---
 ## Repository Structure
+
+```text
 certified_causal_foresight/
 │
 ├── README.md
 ├── paper/
-│ └── full_paper.pdf
+│   └── full_paper.pdf
 │
 ├── theory/
-│ ├── stochastic_model.md
-│ ├── certification_derivation.md
-│ ├── concentration_bounds.md
-│ └── risk_analysis.md
+│   ├── stochastic_model.md
+│   ├── certification_derivation.md
+│   ├── concentration_bounds.md
+│   └── risk_analysis.md
 │
 ├── simulation/
-│ ├── ieee14_case.py
-│ ├── dc_power_flow.py
-│ ├── monte_carlo_engine.py
-│ ├── certification.py
-│ └── utils.py
+│   ├── ieee14_case.py
+│   ├── dc_power_flow.py
+│   ├── monte_carlo_engine.py
+│   ├── certification.py
+│   └── utils.py
 │
 ├── experiments/
-│ ├── risk_surface.py
-│ ├── parameter_sweep.py
-│ └── results/
-│ ├── plots/
-│ └── data/
+│   ├── risk_surface.py
+│   ├── parameter_sweep.py
+│   └── results/
+│       ├── plots/
+│       └── data/
 │
 ├── outputs/
-│ ├── figures/
-│ ├── logs/
-│ └── tables/
+│   ├── figures/
+│   ├── logs/
+│   └── tables/
 │
 └── docs/
-├── methodology.md
-├── assumptions.md
-└── limitations.md
-
----
-
+    ├── methodology.md
+    ├── assumptions.md
+    └── limitations.md
+```
 ## Simulation Details
 
 - Test System: IEEE 14 Bus
